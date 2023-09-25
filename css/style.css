@@ -1,0 +1,23 @@
+header nav a,h1 {
+    color: #5E1210;
+}
+
+header .active {
+    border-bottom: 2px solid #5E1210;
+}
+
+header nav {
+    background-color: rgba(255, 255, 255, 0.799);
+}
+
+header {
+    background-image: url(../images/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.hero {
+    height: 700px;
+}

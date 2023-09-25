@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="flex justify-between p-5 fixed right-0 left-0 items-center">
+        <h1 class="text-3xl">
+          <i class="fa-solid fa-utensils"></i> Kitchen Alchemy
+        </h1>
+        <ul class="flex gap-7">
+          <li class="text-sm">
+            <a href="#" onclick="change1()" class="link1 active">HOME</a>
+          </li>
+          <li class="text-sm">
+            <a href="#" onclick="change2()" class="link2">RECIPES</a>
+          </li>
+          <li class="text-sm">
+            <a href="#" onclick="change3()" class="link3">ABOUT ME</a>
+          </li>
+          <li class="text-sm">
+            <a href="#" onclick="change4()" class="link4">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="hero flex justify-center items-center">
+        <div class="bg-slate-50 text-center p-10">
+          <h2 class="text-6xl mb-7">Transforming Ingredients into Magic</h2>
+          <h3 class="text-2xl mb-7">Discover Great Recipes</h3>
+          <button class="bg-red-500 px-4 py-3 text-red-900">
+            BROWSE RECIPES
+          </button>
+        </div>
+      </section>
+    </header>
+
+    <section class="recipes bg-neutral-200 py-14">
+      <h2 class="text-center mb-10 text-3xl">RECIPES</h2>
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-10 lg:px-40"
+      >
+        <div class="bg-slate-50 p-5 rounded-xl">
+          <img src="images/1.jpg" class="w-full rounded-xl h-44" alt="" />
+          <h3 class="py-7 text-red-500 text-xl hover:underline cursor-pointer">
+            Vegetable Fritters with Broccoli, Kale and Capers
+          </h3>
+          <p>
+            If you're like most people, you want to look and feel your best
+            every day.
+          </p>
+          <button class="text-red-500 py-7">Read More ></button>
+        </div>
+
+        <div class="bg-slate-50 p-5 rounded-xl">
+          <img src="images/1.jpg" class="w-full rounded-xl h-44" alt="" />
+          <h3 class="py-7 text-red-500 text-xl hover:underline cursor-pointer">
+            Vegetable Fritters with Broccoli, Kale and Capers
+          </h3>
+          <p>
+            If you're like most people, you want to look and feel your best
+            every day.
+          </p>
+          <button class="text-red-500 py-7">Read More ></button>
+        </div>
+        <div class="bg-slate-50 p-5 rounded-xl">
+          <img src="images/1.jpg" class="w-full rounded-xl h-44" alt="" />
+          <h3 class="py-7 text-red-500 text-xl hover:underline cursor-pointer">
+            Vegetable Fritters with Broccoli, Kale and Capers
+          </h3>
+          <p>
+            If you're like most people, you want to look and feel your best
+            every day.
+          </p>
+          <button class="text-red-500 py-7">Read More ></button>
+        </div>
+        <div class="bg-slate-50 p-5 rounded-xl">
+          <img src="images/1.jpg" class="w-full rounded-xl h-44" alt="" />
+          <h3 class="py-7 text-red-500 text-xl hover:underline cursor-pointer">
+            Vegetable Fritters with Broccoli, Kale and Capers
+          </h3>
+          <p>
+            If you're like most people, you want to look and feel your best
+            every day.
+          </p>
+          <button class="text-red-500 py-7">Read More ></button>
+        </div>
+        <div class="bg-slate-50 p-5 rounded-xl">
+          <img src="images/1.jpg" class="w-full rounded-xl h-44" alt="" />
+          <h3 class="py-7 text-red-500 text-xl hover:underline cursor-pointer">
+            Vegetable Fritters with Broccoli, Kale and Capers
+          </h3>
+          <p>
+            If you're like most people, you want to look and feel your best
+            every day.
+          </p>
+          <button class="text-red-500 py-7">Read More ></button>
+        </div>
+        <div class="bg-slate-50 p-5 rounded-xl">
+          <img src="images/1.jpg" class="w-full rounded-xl h-44" alt="" />
+          <h3 class="py-7 text-red-500 text-xl hover:underline cursor-pointer">
+            Vegetable Fritters with Broccoli, Kale and Capers
+          </h3>
+          <p>
+            If you're like most people, you want to look and feel your best
+            every day.
+          </p>
+          <button class="text-red-500 py-7">Read More ></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="enjoy bg-gray-300 py-16">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 px-10 lg:px-40">
+        <div class="col-span-2 bg-slate-950 flex justify-center items-center">
+          <h2 class="text-slate-50 text-6xl px-16 text-center">
+            Enjoy The Taste Of Life
+          </h2>
+        </div>
+        <div>
+          <img src="images/3.jpg" class="h-full" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="contact text-center py-14">
+      <h2 class="mb-10 text-3xl">CONTACT</h2>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div>
+          <h3 class="mb-4">Manhattan, New York, NY, United States</h3>
+          <a href="" class="text-red-500 hover:underline">+1-985-245-1730</a>
+          <br />
+          <a href="" class="text-red-500 hover:underline"
+            >example@example.com</a
+          >
+          <h3 class="mt-4">Mon-Fri - 08:00-19:00</h3>
+        </div>
+        <div class="px-10">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
+            <div>
+              <input
+                type="text"
+                placeholder="Name"
+                class="border-2 p-4 mb-4 rounded w-full"
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                placeholder="Phone"
+                class="border-2 p-4 mb-4 rounded w-full"
+              />
+            </div>
+          </div>
+          <input
+            type="text"
+            placeholder="Email"
+            class="border-2 p-4 mb-4 rounded w-full"
+          />
+          <br />
+          <input
+            type="text"
+            placeholder="Message"
+            class="border-2 pt-4 pb-16 ps-4 mb-4 rounded w-full"
+          />
+          <br />
+          <button class="p-4 mb-4 mb-4 rounded w-full bg-red-500 text-red-900">
+            CONTACT US
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="grid-cols-1 text-center">
+        <div class="flex justify-center mb-8">
+          <ul class="flex gap-4">
+            <li>
+              <a href="#">HOME</a>
+            </li>
+            <li>
+              <a href="#">RECIPES</a>
+            </li>
+            <li>
+              <a href="#">ABOUT ME</a>
+            </li>
+            <li>
+              <a href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex justify-center mb-8">
+          <div class="border-2">
+            <span class="border-r-2 bg-slate-300 p-4">🤓</span>
+            <span><input type="text" class="p-4 border-r-2" placeholder="Email"/></span>
+            <span><button class="p-4 bg-red-500 text-red-900">Contact</button></span>
+          </div>
+        </div>
+        <div>
+          <p>Copyright © 2023 All rights reserved - Kitchen Alchemy</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
